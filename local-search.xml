@@ -29,9 +29,34 @@
   
   
   <entry>
+    <title>手动上传于思源笔记写就的文档</title>
+    <link href="/2026/02/02/%E6%89%8B%E5%8A%A8%E4%B8%8A%E4%BC%A0%E4%BA%8E%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0%E5%86%99%E5%B0%B1%E7%9A%84%E6%96%87%E6%A1%A3/"/>
+    <url>/2026/02/02/%E6%89%8B%E5%8A%A8%E4%B8%8A%E4%BC%A0%E4%BA%8E%E6%80%9D%E6%BA%90%E7%AC%94%E8%AE%B0%E5%86%99%E5%B0%B1%E7%9A%84%E6%96%87%E6%A1%A3/</url>
+    
+    <content type="html"><![CDATA[<p>1、选择以markdown.zip的形式导出文档</p><p>2、将获得的markdown源文件转移至bolgs&#x2F;source&#x2F;_post中</p><p>3、使用vscode打开，并为其以此格式填写文章标题、发布日期、标签、种类、关键词等等，标题和时间是必需的</p><p>‍</p><p><img src="/assets/network-asset-d645149abd3f408b83de91fdbae5e5d5-20250317140311-gsh04yl.png" alt="network-asset-d645149abd3f408b83de91fdbae5e5d5-20250317140311-gsh04yl"></p><table><thead><tr><th>配置项</th><th>意义</th></tr></thead><tbody><tr><td>title</td><td>网页文章标题</td></tr><tr><td>date</td><td>文章创建时间</td></tr><tr><td>comments</td><td>文章评论功能是否启动</td></tr><tr><td>tags</td><td>文章标签</td></tr><tr><td>categories</td><td>文章分类</td></tr><tr><td>keywords</td><td>文章关键字</td></tr></tbody></table>]]></content>
+    
+    
+    <categories>
+      
+      <category>各应用使用说明</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>思源</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>对fluid主题进行自定义</title>
-    <link href="/2026/02/02/costum/"/>
-    <url>/2026/02/02/costum/</url>
+    <link href="/2026/02/02/%E5%AF%B9fluid%E4%B8%BB%E9%A2%98%E8%BF%9B%E8%A1%8C%E8%87%AA%E5%AE%9A%E4%B9%89/"/>
+    <url>/2026/02/02/%E5%AF%B9fluid%E4%B8%BB%E9%A2%98%E8%BF%9B%E8%A1%8C%E8%87%AA%E5%AE%9A%E4%B9%89/</url>
     
     <content type="html"><![CDATA[<p>1、基本操作</p><p>进行编辑（vscode代码+本地&#x2F;云端资源修改）</p><p>在blogs上打开git bash执行hexo clean和hexo deploy</p><p>等待两分钟，检查效果实现情况</p><p>2、参考路径</p><p>主题路径：C:\Users\35154\Desktop\files4blog\blogs\node_modules\hexo-theme-fluid</p><p>图片资源存放：如上位置的source\img</p><p>背景大图存放：如上位置的background   </p><p>3、官方指南</p><p><a href="https://fluid-dev.github.io/hexo-fluid-docs/guide/">https://fluid-dev.github.io/hexo-fluid-docs/guide/</a></p><p>4、要点</p><p>在config文件中，写路径要使用左斜杠&#x2F;，否则修改不会生效</p><p>_config.fluid的生效优先级高于_config </p><p>使用的图片大于1mb会极大降低网站的加载效率</p><p>‍</p><p>‍</p><p>‍</p>]]></content>
     
